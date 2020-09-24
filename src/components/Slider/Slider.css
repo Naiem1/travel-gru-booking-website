@@ -1,0 +1,24 @@
+.slider {
+  position: relative;
+  z-index: 9;
+  margin-top: 40px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.slider img {
+  height: 350px;
+  min-width: 200px;
+  border: 3px solid #F9A51A;
+  border-radius: 40px;
+}
+
+.location__title {
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+

@@ -1,0 +1,48 @@
+.home {
+  /* background: url('../../Image/Rectangle\ 1.png'); */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  z-index: -9; */
+
+}
+
+
+
+.home::before {
+  background: url('../../Image/Rectangle\ 1.png');
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.home::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: bottom;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider__card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: 100px
+}
