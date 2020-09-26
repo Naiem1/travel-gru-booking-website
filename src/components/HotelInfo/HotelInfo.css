@@ -1,0 +1,35 @@
+.hotelInfo {
+  display: flex;
+  margin: 40px 50px 0;
+  margin-top: 30px;
+}
+
+img {
+  max-width: 230px;
+}
+
+.hotelInfo__desc {
+  padding: 0 20px;
+}
+
+.hotelInfo__desc p {
+  color: gray;
+  font-weight: 300;
+  padding: 5px
+}
+
+.price {
+  display: flex;
+  margin: 5px 5px
+}
+
+.price p {
+  margin: 0 10px;
+  padding-top: 0;
+}
+
+.price img {
+  width: 20px;
+  height: 20px;
+}
+

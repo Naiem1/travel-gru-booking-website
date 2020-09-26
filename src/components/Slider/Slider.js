@@ -1,15 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Slider.css';
 
 const Slider = (props) => {
-  const location = props.location;
-  console.log(location.locatonImg);
-  console.log('location Data >>>', location);
+  
+  const{ locationName, location, locationImg} = props.location;
 
   return (
     <div className="slider">
-        <img src={location.locatonImg} alt="" />
-        <h2 className="location__title">{location.locationName}</h2>
+    
+      <Link to={"/booking/" + location}>
+        <img src={locationImg} alt="" />
+        <h2 className="location__title">{locationName}</h2>
+      </Link>
     </div>
   );
 };

@@ -6,10 +6,17 @@ import Slider from '../Slider/Slider';
 
 
 const Home = () => {
+  // const data = fakeData.map(value => {
+  //   return value.features.filter(info => info.price)
+    
+  // })
+
+  // console.log(data);
+  
+  
   const [location, setLocation] = useState(fakeData);
   return (
     <div className="home">
-      <Header></Header>
 
       <div className="slider__card">
         {
